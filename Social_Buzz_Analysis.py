@@ -32,7 +32,7 @@ stat_code['Overseas Location'] = 'Overseas Location'
 
 
 geo = st.container(border=True)
-geo_chart,geo_des = geo.columns([.60,.40])
+geo_chart,geo_des = geo.columns([.70,.30])
 geo_des_ = geo_des.container(border=True)
 geo_chart_ = geo_chart.container(border=True)
 
