@@ -253,7 +253,7 @@ whom_space_chart_.plotly_chart(age_based_chart)
 
 ############################################################## When Analysis ##############################################################
 when_hour_space = st.container(border=True)
-when_hour_space_des,when_hour_space_chart = when_hour_space.columns([.40,.60])
+when_hour_space_des,when_hour_space_chart = when_hour_space.columns([.30,.70])
 when_hour_space_des_ = when_hour_space_des.container(border=True)
 when_hour_space_chart_ = when_hour_space_chart.container(border=True)
 
