@@ -368,7 +368,7 @@ when_day_space_chart_.plotly_chart(day_based_chart)
 
 ############### Device Related Analysis ###################
 which_device = st.container(border=True)
-which_device_des,which_device_chart = which_device.columns([.40,.60])
+which_device_des,which_device_chart = which_device.columns([.30,.70])
 which_device_des_ = which_device_des.container(border=True)
 which_device_chart_ = which_device_chart.container(border=True)
 dev_based_metric = which_device_des_.selectbox('Select Evaluation Metric:',['Number of Reactions/Interactions','Average Duration Spent',
