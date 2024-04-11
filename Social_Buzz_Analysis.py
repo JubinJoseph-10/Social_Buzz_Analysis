@@ -140,7 +140,7 @@ geo_chart_.plotly_chart(choromap)
 
 ############################################################## What kind of data to produce ##############################################################
 what_space = st.container(border=True)
-what_des,what_chart = what_space.columns([.40,.60])
+what_des,what_chart = what_space.columns([.30,.70])
 what_des_ = what_des.container(border=True)
 what_chart_ = what_chart.container(border=True)
 
@@ -198,7 +198,7 @@ what_chart_.plotly_chart(what_based_chart)
 
 ############################################################## Age Related Analysis ##############################################################
 whom_space = st.container(border=True)
-whom_space_chart,whom_space_des = whom_space.columns([.60,.40])
+whom_space_chart,whom_space_des = whom_space.columns([.70,.30])
 whom_space_des_ = whom_space_des.container(border=True)
 whom_space_chart_ = whom_space_chart.container(border=True)
 
@@ -311,7 +311,7 @@ when_hour_space_chart_.plotly_chart(when_hour_based_chart)
 ############################################################## When Analysis 2 ##############################################################
 
 when_day_space = st.container(border=True)
-when_day_space_chart,when_day_space_des = when_day_space.columns([.60,.40])
+when_day_space_chart,when_day_space_des = when_day_space.columns([.70,.30])
 when_day_space_des_ = when_day_space_des.container(border=True)
 when_day_space_chart_ = when_day_space_chart.container(border=True)
 
