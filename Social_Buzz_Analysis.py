@@ -375,6 +375,13 @@ dev_based_metric = which_device_des_.selectbox('Select Evaluation Metric:',['Num
                                          'Ratio of Postive/Negative Sentiments','Ratio of Neutral/Negative Sentiments',
                                          'Number of Unqiue Users Interacting'],key=80)
 
+which_device_des_.write('WHAT DEVICES CAN WE COLLABORATE WITH?')
+which_device_des_.markdown('<div style="text-align: justify; font-size: 16px">This section provides actionable insights into the devices most commonly used by active users of the platform, offering opportunities for strategic partnerships and expansion. User data has been analyzed to determine the distribution of active users across different device types and helps identify the primary devices preferred by the audience for accessing the platform.</div>',unsafe_allow_html=True)
+which_device_des_.write('\n')
+#which_device_des_.markdown('<div style="text-align: justify; font-size: 16px">As such, it determines the ideal day for launching new products or features based on historical engagement trends and audience behavior. Thereby, helping creators maximize visibility and impact by scheduling launches on days when the target audience is most active.</div>',unsafe_allow_html=True)
+#which_device_des_.write('\n')
+
+
 
 def dev_data_thrower(metric):
     if metric == 'Number of Reactions/Interactions':
